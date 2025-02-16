@@ -1,27 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #191A19;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary-background: #DDEB9D;
+  --primary-foreground: #143D60;
+  --secondary-background: #A0C878;
+  --secondary-foreground: #086FB3;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-foreground);
+  background: #ffffff;
+  font-family: "Liter", serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .screen-width{
+    @apply px-20 py-12;
+  }
+  .liter-regular {
+    font-family: "Liter", serif;
   }
 }
