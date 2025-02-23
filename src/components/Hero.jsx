@@ -7,8 +7,8 @@ import { Autoplay } from 'swiper/modules';
 
 const Hero = () => {
   return (
-    <div className='relative h-[586px]'>
-    <div className='absolute -top-16 z-0 w-full mx-auto bg-red-900 '>
+    <div className=' h-[586px]'>
+    <div className='absolute top-0 z-0 w-full mx-auto'>
     <Swiper modules={[Autoplay]} autoplay={{ delay: 3000, disableOnInteraction: true, pauseOnMouseEnter: true }} loop>   
     <SwiperSlide>
       <Image src={'/images/project1.avif'} alt='avathar' width={1000} height={1000} className='w-full h-[650px]'/>

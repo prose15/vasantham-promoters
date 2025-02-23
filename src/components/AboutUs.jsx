@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <section id='about-us'>
         <div className='relative'>
-        <div className=' max-w-screen-xl mx-auto pt-16 text-foreground'>
+        <div className='mobile-width lg:max-w-screen-xl mx-auto pt-16 text-foreground'>
             <div className='text-center flex flex-col gap-4'>
             <h1 className='text-4xl font-bold uppercase font-playfair'>Welcome to Vasantham Promoters</h1>
             <p>At Vasantham Promoters, we are committed to building a brighter future by delivering quality homes and high-value plots in Tindivanam, Pondicherry, and Villupuram. With years of expertise in real estate and construction, we ensure our customers receive the best investment opportunities and dream homes at competitive prices.</p>

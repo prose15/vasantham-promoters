@@ -13,7 +13,7 @@
 }
 
 body {
-  color: var(--secondary-foreground);
+  color: var(--primary-foreground);
   background: #ffffff;
   font-family: "Liter", serif;
 }
@@ -21,6 +21,9 @@ body {
 @layer utilities {
   .screen-width{
     @apply px-20 py-12;
+  }
+  .mobile-width{
+    @apply px-3 py-4;
   }
   .liter-regular {
     font-family: "Liter", serif;

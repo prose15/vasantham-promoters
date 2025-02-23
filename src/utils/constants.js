@@ -33,3 +33,236 @@ export const aboutUs = [{
   title: '25+',
   desc: 'Years of Expertise'
 }]
+
+export const navItems = [{
+  name: 'About Us',
+  href: '#aboutus'
+},
+{
+  name: 'Services',
+  href: '#services'
+},
+{
+  name: 'Projects',
+  href: '#projects'
+},
+{
+  name: 'Meet Our Team',
+  href: '#meetourteam'
+},
+{
+  name: 'Testimonial',
+  href: '#testimonial'
+}]
+
+export const projectType = [{id:0,name:'Current Project'},{id: 1,name:'Future Project'},{id: 2,name: 'Past Project'}]
+
+export const currentProjects = [
+  {
+    id: 0,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 1,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 2,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },  {
+    id: 3,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 4,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 5,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },  {
+    id: 6,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 7,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 8,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  },
+  {
+    id: 9,
+    img_url: '/images/projects/current-projects.jpg',
+    location: 'Thindivanam',
+    price: '63.95 Lakhs',
+    plot_size: '646 Sq.Ft'
+  }]
+
+export const futhureProjects = [
+    {
+      id: 0,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 1,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 2,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },  {
+      id: 3,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 4,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 5,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },  {
+      id: 6,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 7,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 8,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+    },
+    {
+      id: 9,
+      img_url: '/images/projects/futhure-projects.jpg',
+      location: 'Thindivanam',
+      price: '63.95 Lakhs',
+      plot_size: '646 Sq.Ft'
+  }]
+
+export const pastProjects = [
+      {
+        id: 0,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 1,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 2,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },  {
+        id: 3,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 4,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 5,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },  {
+        id: 6,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 7,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 8,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+      },
+      {
+        id: 9,
+        img_url: '/images/projects/past-projects.jpeg',
+        location: 'Thindivanam',
+        price: '63.95 Lakhs',
+        plot_size: '646 Sq.Ft'
+  }]
